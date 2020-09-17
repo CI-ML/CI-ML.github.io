@@ -16,7 +16,7 @@ url: "https://ci-ml.github.io/CIML.io/" # the base hostname & protocol for your 
 # Layout settings
 header_type: default  # values [ drawer, default ]
 post_type: default    # values [ highlight, default ]
-pagination_type: ops  # values [ ops, default ]
+pagination_type: default  # values [ ops, default ]
 
 more_vert:
   option1:
@@ -24,7 +24,7 @@ more_vert:
     link: namecards.html
   option2:
     name: Option 2
-    link: www.myawesomelink.com
+    link: https://www.sdsc.edu/
   option3:
     name: Option 3
     link: www.myawesomelink.com
