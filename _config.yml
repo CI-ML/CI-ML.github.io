@@ -1,0 +1,37 @@
+# Site settings
+title: Cyber Infrastructure Machine Learning
+email: lijoey17@hotmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This site is all about cyber infrastructure machine learning.
+baseurl: "CIML.io" # the subpath of your site, e.g. /blog/
+url: "https://ci-ml.github.io/CIML.io/" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+#github_username:  jekyll
+#facebook_username: jekyll
+#google_play: 'GDGX'
+#google_plus_com: '109485346959707049693'  # Community link
+#google_plus_per: '+GDGManagua'  #Personal link
+#facebook_app_id: 12345
+
+# Layout settings
+header_type: default  # values [ drawer, default ]
+post_type: default    # values [ highlight, default ]
+pagination_type: ops  # values [ ops, default ]
+
+more_vert:
+  option1:
+    name: Option 1
+    link: namecards.html
+  option2:
+    name: Option 2
+    link: www.myawesomelink.com
+  option3:
+    name: Option 3
+    link: www.myawesomelink.com
+
+disqus: false
+disqus_shortname: 'gdgmanagua'
+
+# Build settings
+markdown: kramdown
+port: 4000

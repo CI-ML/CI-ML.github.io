@@ -1,0 +1,114 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<h2>Meet CIML member</h2>
+<p></p>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://www.sdsc.edu/~mthomas/images/thomas_high.jpg" alt="Mary" style="width:100%">
+      <div class="container">
+        <h2>Mary Thomas</h2>
+        <p class="title">Founder</p>
+        <p>Dr.Thomas is the leader of this project</p>
+        <p>marypthomas@gmail.com</p>
+        <p><a href="https://www.sdsc.edu/research/researcher_spotlight/thomas_mary.html"><button class="button">Personal Website</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://media-exp1.licdn.com/dms/image/C5603AQGtNpYaylVA6g/profile-displayphoto-shrink_200_200/0?e=1605744000&v=beta&t=UhxrvBDA5O1zXpSNEdZrcimcp4zE2U1aDUqKohFnYVw" alt="Joey" style="width:100%">
+      <div class="container">
+        <h2>Zhaoyi Li</h2>
+        <p class="title">Intern</p>
+        <p>Something about Joey should appear here</p>
+        <p>lijoey17@hotmail.com</p>
+        <p><a href="https://www.linkedin.com/in/zhaoyi-joey-li/"><button class="button">Personal Website</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://media-exp1.licdn.com/dms/image/C5603AQEN3Ndxm7JQfQ/profile-displayphoto-shrink_200_200/0?e=1605744000&v=beta&t=WmVsKIxH1vfZ6avLmJNrIE48LTcQMf9VPak_1oqXZRs" alt="Jacob" style="width:100%">
+      <div class="container">
+        <h2>Xiaochen Li</h2>
+        <p class="title">Intern</p>
+        <p>Something about jacob should appear here</p>
+        <p>x1li@ucsd.edu</p>
+        <p><a href="https://www.linkedin.com/in/xiaochenli99/"><button class="button">Personal Website</button></a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
