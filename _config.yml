@@ -21,9 +21,9 @@ pagination_type: default  # values [ ops, default ]
 more_vert:
   option1:
     name: Option 1
-    link: namecards.html
+    link:
   option2:
-    name: Option 2
+    name: SDSC website
     link: https://www.sdsc.edu/
   option3:
     name: Option 3
@@ -34,4 +34,4 @@ disqus_shortname: 'gdgmanagua'
 
 # Build settings
 markdown: kramdown
-port: 8080
+port: 4000
