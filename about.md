@@ -17,4 +17,4 @@ and services for advanced computation, large-scale data handling and analytics, 
 that collectively enable potentially transformative fundamental research.
 
 
-![ciml_venn](https://github.com/CI-ML/CIML.io/blob/master/CIML_venn.png)
+![ciml_venn](https://github.com/CI-ML/CIML.io/tree/gh-pages/img/CIML_venn.png)
