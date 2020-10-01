@@ -4,7 +4,7 @@ email: lijoey17@hotmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This site is all about cyber infrastructure machine learning.
 baseurl: "/CIML.io/" # the subpath of your site, e.g. /blog/
-url: "https://ci-ml.github.io/CIML.io/" # the base hostname & protocol for your site
+url: "https://ci-ml.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 #github_username:  jekyll
 #facebook_username: jekyll
